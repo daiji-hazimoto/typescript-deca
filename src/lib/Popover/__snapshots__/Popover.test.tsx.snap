@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Popover matches snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="c-hpqThE c-hpqThE-jsOpSy-color-primary c-hpqThE-dcPSsq-size-md c-hpqThE-bDGmTT-isDisabled-false c-hpqThE-cycqzJ-pill-false c-hpqThE-ePLPad-cv decaButton-root"
+    role="button"
+  >
+    Open Popover
+  </button>
+</DocumentFragment>
+`;

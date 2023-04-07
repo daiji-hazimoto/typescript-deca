@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Radio matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="c-cDEphG decaRadio-root"
+  >
+    <input
+      class="c-iIDhYW c-iIDhYW-dpPCZp-color-primary c-iIDhYW-kueLmT-isDisabled-false decaRadio-input"
+      id="1"
+      type="radio"
+      value=""
+    />
+    <label
+      class="c-jponNy c-jponNy-cCGZrG-size-md c-jponNy-hqEieG-isDisabled-false c-jponNy-jQVVMl-cv"
+      for="1"
+    >
+      <div
+        class="decaRadio-circle"
+      />
+      Label Text
+    </label>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`components/Radio renders all colors 1`] = `
+<DocumentFragment>
+  <div
+    class="c-cDEphG decaRadio-root"
+  >
+    <input
+      class="c-iIDhYW c-iIDhYW-dpPCZp-color-primary c-iIDhYW-kueLmT-isDisabled-false decaRadio-input"
+      id="1"
+      type="radio"
+      value=""
+    />
+    <label
+      class="c-jponNy c-jponNy-cCGZrG-size-md c-jponNy-hqEieG-isDisabled-false"
+      for="1"
+    >
+      <div
+        class="decaRadio-circle"
+      />
+    </label>
+  </div>
+  <div
+    class="c-cDEphG decaRadio-root"
+  >
+    <input
+      class="c-iIDhYW c-iIDhYW-gxpMwf-color-secondary c-iIDhYW-kueLmT-isDisabled-false decaRadio-input"
+      id="1"
+      type="radio"
+      value=""
+    />
+    <label
+      class="c-jponNy c-jponNy-cCGZrG-size-md c-jponNy-hqEieG-isDisabled-false"
+      for="1"
+    >
+      <div
+        class="decaRadio-circle"
+      />
+    </label>
+  </div>
+  <div
+    class="c-cDEphG decaRadio-root"
+  >
+    <input
+      class="c-iIDhYW c-iIDhYW-bYSuiK-color-success c-iIDhYW-kueLmT-isDisabled-false decaRadio-input"
+      id="1"
+      type="radio"
+      value=""
+    />
+    <label
+      class="c-jponNy c-jponNy-cCGZrG-size-md c-jponNy-hqEieG-isDisabled-false"
+      for="1"
+    >
+      <div
+        class="decaRadio-circle"
+      />
+    </label>
+  </div>
+  <div
+    class="c-cDEphG decaRadio-root"
+  >
+    <input
+      class="c-iIDhYW c-iIDhYW-cPFsdX-color-warning c-iIDhYW-kueLmT-isDisabled-false decaRadio-input"
+      id="1"
+      type="radio"
+      value=""
+    />
+    <label
+      class="c-jponNy c-jponNy-cCGZrG-size-md c-jponNy-hqEieG-isDisabled-false"
+      for="1"
+    >
+      <div
+        class="decaRadio-circle"
+      />
+    </label>
+  </div>
+  <div
+    class="c-cDEphG decaRadio-root"
+  >
+    <input
+      class="c-iIDhYW c-iIDhYW-cKfDIh-color-error c-iIDhYW-kueLmT-isDisabled-false decaRadio-input"
+      id="1"
+      type="radio"
+      value=""
+    />
+    <label
+      class="c-jponNy c-jponNy-cCGZrG-size-md c-jponNy-hqEieG-isDisabled-false"
+      for="1"
+    >
+      <div
+        class="decaRadio-circle"
+      />
+    </label>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`components/Radio renders all sizes 1`] = `
+<DocumentFragment>
+  <div
+    class="c-cDEphG decaRadio-root"
+  >
+    <input
+      class="c-iIDhYW c-iIDhYW-dpPCZp-color-primary c-iIDhYW-kueLmT-isDisabled-false decaRadio-input"
+      id="1"
+      type="radio"
+      value=""
+    />
+    <label
+      class="c-jponNy c-jponNy-biyOBk-size-sm c-jponNy-hqEieG-isDisabled-false"
+      for="1"
+    >
+      <div
+        class="decaRadio-circle"
+      />
+    </label>
+  </div>
+  <div
+    class="c-cDEphG decaRadio-root"
+  >
+    <input
+      class="c-iIDhYW c-iIDhYW-dpPCZp-color-primary c-iIDhYW-kueLmT-isDisabled-false decaRadio-input"
+      id="1"
+      type="radio"
+      value=""
+    />
+    <label
+      class="c-jponNy c-jponNy-cCGZrG-size-md c-jponNy-hqEieG-isDisabled-false"
+      for="1"
+    >
+      <div
+        class="decaRadio-circle"
+      />
+    </label>
+  </div>
+  <div
+    class="c-cDEphG decaRadio-root"
+  >
+    <input
+      class="c-iIDhYW c-iIDhYW-dpPCZp-color-primary c-iIDhYW-kueLmT-isDisabled-false decaRadio-input"
+      id="1"
+      type="radio"
+      value=""
+    />
+    <label
+      class="c-jponNy c-jponNy-fNoFLO-size-lg c-jponNy-hqEieG-isDisabled-false"
+      for="1"
+    >
+      <div
+        class="decaRadio-circle"
+      />
+    </label>
+  </div>
+</DocumentFragment>
+`;

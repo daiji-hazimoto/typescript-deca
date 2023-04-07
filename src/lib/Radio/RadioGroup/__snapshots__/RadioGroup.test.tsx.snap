@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/RadioGroup matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="c-HwauS decaRadioGroup-root"
+  >
+    <div
+      class="c-cDEphG decaRadio-root"
+    >
+      <input
+        checked=""
+        class="c-iIDhYW c-iIDhYW-dpPCZp-color-primary c-iIDhYW-kueLmT-isDisabled-false decaRadio-input"
+        id="1"
+        name="radio-1"
+        type="radio"
+        value="A"
+      />
+      <label
+        class="c-jponNy c-jponNy-cCGZrG-size-md c-jponNy-hqEieG-isDisabled-false c-jponNy-jQVVMl-cv"
+        for="1"
+      >
+        <div
+          class="decaRadio-circle"
+        />
+        Option A
+      </label>
+    </div>
+    <div
+      class="c-cDEphG decaRadio-root"
+    >
+      <input
+        class="c-iIDhYW c-iIDhYW-dpPCZp-color-primary c-iIDhYW-kueLmT-isDisabled-false decaRadio-input"
+        id="1"
+        name="radio-1"
+        type="radio"
+        value="B"
+      />
+      <label
+        class="c-jponNy c-jponNy-cCGZrG-size-md c-jponNy-hqEieG-isDisabled-false c-jponNy-jQVVMl-cv"
+        for="1"
+      >
+        <div
+          class="decaRadio-circle"
+        />
+        Option B
+      </label>
+    </div>
+    <div
+      class="c-cDEphG decaRadio-root"
+    >
+      <input
+        class="c-iIDhYW c-iIDhYW-dpPCZp-color-primary c-iIDhYW-kueLmT-isDisabled-false decaRadio-input"
+        id="1"
+        name="radio-1"
+        type="radio"
+        value="C"
+      />
+      <label
+        class="c-jponNy c-jponNy-cCGZrG-size-md c-jponNy-hqEieG-isDisabled-false c-jponNy-jQVVMl-cv"
+        for="1"
+      >
+        <div
+          class="decaRadio-circle"
+        />
+        Option C
+      </label>
+    </div>
+    <div
+      class="c-cDEphG decaRadio-root"
+    >
+      <input
+        class="c-iIDhYW c-iIDhYW-dpPCZp-color-primary c-iIDhYW-kueLmT-isDisabled-false decaRadio-input"
+        id="1"
+        name="radio-1"
+        type="radio"
+        value="D"
+      />
+      <label
+        class="c-jponNy c-jponNy-cCGZrG-size-md c-jponNy-hqEieG-isDisabled-false c-jponNy-jQVVMl-cv"
+        for="1"
+      >
+        <div
+          class="decaRadio-circle"
+        />
+        Option D
+      </label>
+    </div>
+  </div>
+</DocumentFragment>
+`;

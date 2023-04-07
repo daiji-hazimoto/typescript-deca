@@ -1,0 +1,63 @@
+name: CI/CD
+on: [push]
+jobs:
+  quality:
+      runs-on: ubuntu-latest
+      strategy:
+        matrix:
+          node-version: [14.x, 16.x]
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v3
+        - name: Use Node.js ${{ matrix.node-version }}
+          uses: actions/setup-node@v3
+          with:
+            node-version: ${{ matrix.node-version }}
+            cache: 'npm'
+
+        - name: Install dependencies
+          run: npm ci
+        - name: Test
+          run: npm test
+        - name: Codecov
+          uses: codecov/codecov-action@v3.1.0
+  publish:
+    runs-on: ubuntu-latest
+    if: ${{ github.ref == 'refs/heads/main' }}
+    needs: [quality]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+          cache: 'npm'
+      - name: Install Packages
+        run: npm ci
+      - name: Build
+        run: npm run build
+      - name: Generate Release Body
+        run: npm run extract-changelog > RELEASE_BODY.md
+      - name: Publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          access: "public"
+          token: ${{ secrets.NPM_TOKEN }}
+      - name: 'Get Latest Tag'
+        id: latestTag
+        uses: "WyriHaximus/github-action-get-previous-tag@v1"
+      - name: 'Get Latest Release'
+        id: latestRelease
+        uses: pozetroninc/github-action-get-latest-release@master
+        with:
+          repository: ${{ github.repository }}
+      - name: Create GitHub Release
+        if: ${{ steps.latestTag.outputs.tag != steps.latestRelease.outputs.release }}
+        uses: ncipollo/release-action@v1
+        with:
+          bodyFile: "RELEASE_BODY.md"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ steps.latestTag.outputs.tag }}

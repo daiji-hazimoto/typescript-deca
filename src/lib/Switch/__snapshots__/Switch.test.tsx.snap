@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Switch matches screenshot 1`] = `
+<DocumentFragment>
+  <div
+    class="c-gidqah decaSwitch-root"
+  >
+    <input
+      class="c-eZVbbP c-eZVbbP-ejeiXn-size-md c-eZVbbP-esaJkh-color-primary decaSwitch-input"
+      id="switch-1"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="c-dhssrN c-dhssrN-eFiyFa-size-md c-dhssrN-TIRgJ-isDark-false c-dhssrN-jQVVMl-cv"
+      for="switch-1"
+    >
+      Label Text
+    </label>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`components/Switch renders all colors 1`] = `
+<DocumentFragment>
+  <div
+    class="c-gidqah decaSwitch-root"
+  >
+    <input
+      class="c-eZVbbP c-eZVbbP-ejeiXn-size-md c-eZVbbP-esaJkh-color-primary decaSwitch-input"
+      id="switch-1"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="c-dhssrN c-dhssrN-eFiyFa-size-md c-dhssrN-TIRgJ-isDark-false"
+      for="switch-1"
+    />
+  </div>
+  <div
+    class="c-gidqah decaSwitch-root"
+  >
+    <input
+      class="c-eZVbbP c-eZVbbP-ejeiXn-size-md c-eZVbbP-gfACsx-color-secondary decaSwitch-input"
+      id="switch-1"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="c-dhssrN c-dhssrN-eFiyFa-size-md c-dhssrN-TIRgJ-isDark-false"
+      for="switch-1"
+    />
+  </div>
+  <div
+    class="c-gidqah decaSwitch-root"
+  >
+    <input
+      class="c-eZVbbP c-eZVbbP-ejeiXn-size-md c-eZVbbP-jYLLl-color-success decaSwitch-input"
+      id="switch-1"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="c-dhssrN c-dhssrN-eFiyFa-size-md c-dhssrN-TIRgJ-isDark-false"
+      for="switch-1"
+    />
+  </div>
+  <div
+    class="c-gidqah decaSwitch-root"
+  >
+    <input
+      class="c-eZVbbP c-eZVbbP-ejeiXn-size-md c-eZVbbP-dKPMtd-color-warning decaSwitch-input"
+      id="switch-1"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="c-dhssrN c-dhssrN-eFiyFa-size-md c-dhssrN-TIRgJ-isDark-false"
+      for="switch-1"
+    />
+  </div>
+  <div
+    class="c-gidqah decaSwitch-root"
+  >
+    <input
+      class="c-eZVbbP c-eZVbbP-ejeiXn-size-md c-eZVbbP-hPZWBd-color-error decaSwitch-input"
+      id="switch-1"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="c-dhssrN c-dhssrN-eFiyFa-size-md c-dhssrN-TIRgJ-isDark-false"
+      for="switch-1"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`components/Switch renders all sizes 1`] = `
+<DocumentFragment>
+  <div
+    class="c-gidqah decaSwitch-root"
+  >
+    <input
+      class="c-eZVbbP c-eZVbbP-jWLXHG-size-sm c-eZVbbP-esaJkh-color-primary decaSwitch-input"
+      id="switch-1"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="c-dhssrN c-dhssrN-kNuBnU-size-sm c-dhssrN-TIRgJ-isDark-false"
+      for="switch-1"
+    />
+  </div>
+  <div
+    class="c-gidqah decaSwitch-root"
+  >
+    <input
+      class="c-eZVbbP c-eZVbbP-ejeiXn-size-md c-eZVbbP-esaJkh-color-primary decaSwitch-input"
+      id="switch-1"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="c-dhssrN c-dhssrN-eFiyFa-size-md c-dhssrN-TIRgJ-isDark-false"
+      for="switch-1"
+    />
+  </div>
+  <div
+    class="c-gidqah decaSwitch-root"
+  >
+    <input
+      class="c-eZVbbP c-eZVbbP-hPARGX-size-lg c-eZVbbP-esaJkh-color-primary decaSwitch-input"
+      id="switch-1"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="c-dhssrN c-dhssrN-iXIkLl-size-lg c-dhssrN-TIRgJ-isDark-false"
+      for="switch-1"
+    />
+  </div>
+</DocumentFragment>
+`;

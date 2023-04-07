@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Badge matches snapshot 1`] = `
+<DocumentFragment>
+  <span
+    class="c-eCAFWP c-eCAFWP-fzQAVN-pill-false c-eCAFWP-kVJBgm-size-md c-eCAFWP-kKaAKY-color-primary decaBadge-root"
+  />
+</DocumentFragment>
+`;
+
+exports[`components/Badge renders all colors 1`] = `
+<DocumentFragment>
+  <span
+    class="c-eCAFWP c-eCAFWP-fzQAVN-pill-false c-eCAFWP-kVJBgm-size-md c-eCAFWP-kKaAKY-color-primary decaBadge-root"
+  />
+  <span
+    class="c-eCAFWP c-eCAFWP-fzQAVN-pill-false c-eCAFWP-kVJBgm-size-md c-eCAFWP-fDgeqI-color-secondary decaBadge-root"
+  />
+  <span
+    class="c-eCAFWP c-eCAFWP-fzQAVN-pill-false c-eCAFWP-kVJBgm-size-md c-eCAFWP-cnyuIA-color-success decaBadge-root"
+  />
+  <span
+    class="c-eCAFWP c-eCAFWP-fzQAVN-pill-false c-eCAFWP-kVJBgm-size-md c-eCAFWP-fLkJis-color-warning decaBadge-root"
+  />
+  <span
+    class="c-eCAFWP c-eCAFWP-fzQAVN-pill-false c-eCAFWP-kVJBgm-size-md c-eCAFWP-efKikA-color-error decaBadge-root"
+  />
+</DocumentFragment>
+`;
+
+exports[`components/Badge renders all sizes 1`] = `
+<DocumentFragment>
+  <span
+    class="c-eCAFWP c-eCAFWP-fzQAVN-pill-false c-eCAFWP-ioXeqN-size-sm c-eCAFWP-kKaAKY-color-primary decaBadge-root"
+  />
+  <span
+    class="c-eCAFWP c-eCAFWP-fzQAVN-pill-false c-eCAFWP-kVJBgm-size-md c-eCAFWP-kKaAKY-color-primary decaBadge-root"
+  />
+  <span
+    class="c-eCAFWP c-eCAFWP-fzQAVN-pill-false c-eCAFWP-jBFCiy-size-lg c-eCAFWP-kKaAKY-color-primary decaBadge-root"
+  />
+</DocumentFragment>
+`;
+
+exports[`components/Badge renders pill option 1`] = `
+<DocumentFragment>
+  <span
+    class="c-eCAFWP c-eCAFWP-euJLgm-pill-true c-eCAFWP-kVJBgm-size-md c-eCAFWP-kKaAKY-color-primary decaBadge-root"
+  />
+</DocumentFragment>
+`;

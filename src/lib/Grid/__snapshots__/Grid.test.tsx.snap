@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Grid all sizes render properly on grid container 1`] = `
+<DocumentFragment>
+  <div
+    class="c-kvxVqY c-kvxVqY-kUXYyw-spacing-sm decaGridContainer-root"
+  >
+    <div
+      class="c-kuhmNX c-kuhmNX-igjvCRc-css decaGrid-root"
+    >
+      1
+    </div>
+    <div
+      class="c-kuhmNX c-kuhmNX-igjvCRc-css decaGrid-root"
+    >
+      2
+    </div>
+    <div
+      class="c-kuhmNX c-kuhmNX-igjvCRc-css decaGrid-root"
+    >
+      3
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`components/Grid all sizes render properly on grid item 1`] = `
+<DocumentFragment>
+  <div
+    class="c-kvxVqY c-kvxVqY-kUXYyw-spacing-sm decaGridContainer-root"
+  >
+    <div
+      class="c-kuhmNX c-kuhmNX-igjvCRc-css decaGrid-root"
+    >
+      1
+    </div>
+    <div
+      class="c-kuhmNX c-kuhmNX-ikaOtdY-css decaGrid-root"
+    >
+      2
+    </div>
+    <div
+      class="c-kuhmNX c-kuhmNX-ikaOtdY-css decaGrid-root"
+    >
+      3
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`components/Grid matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="c-kvxVqY c-kvxVqY-kUXYyw-spacing-sm decaGridContainer-root"
+  >
+    <div
+      class="c-kuhmNX c-kuhmNX-ikaOtdY-css decaGrid-root"
+    >
+      1
+    </div>
+    <div
+      class="c-kuhmNX c-kuhmNX-ikaOtdY-css decaGrid-root"
+    >
+      2
+    </div>
+    <div
+      class="c-kuhmNX c-kuhmNX-ikaOtdY-css decaGrid-root"
+    >
+      3
+    </div>
+  </div>
+</DocumentFragment>
+`;

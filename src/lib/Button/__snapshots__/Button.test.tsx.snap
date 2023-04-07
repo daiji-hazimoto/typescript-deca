@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Button matches snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="c-hpqThE c-hpqThE-jsOpSy-color-primary c-hpqThE-dcPSsq-size-md c-hpqThE-bDGmTT-isDisabled-false c-hpqThE-cycqzJ-pill-false c-hpqThE-ePLPad-cv decaButton-root"
+    role="button"
+  >
+    Label
+  </button>
+</DocumentFragment>
+`;
+
+exports[`components/Button renders all colors 1`] = `
+<DocumentFragment>
+  <button
+    class="c-hpqThE c-hpqThE-jsOpSy-color-primary c-hpqThE-dcPSsq-size-md c-hpqThE-bDGmTT-isDisabled-false c-hpqThE-cycqzJ-pill-false c-hpqThE-ePLPad-cv decaButton-root"
+    role="button"
+  >
+    Label
+  </button>
+  <button
+    class="c-hpqThE c-hpqThE-bmmCCE-color-secondary c-hpqThE-dcPSsq-size-md c-hpqThE-bDGmTT-isDisabled-false c-hpqThE-cycqzJ-pill-false c-hpqThE-gCieqL-cv decaButton-root"
+    role="button"
+  >
+    Label
+  </button>
+  <button
+    class="c-hpqThE c-hpqThE-cbktrZ-color-success c-hpqThE-dcPSsq-size-md c-hpqThE-bDGmTT-isDisabled-false c-hpqThE-cycqzJ-pill-false c-hpqThE-kkCveC-cv decaButton-root"
+    role="button"
+  >
+    Label
+  </button>
+  <button
+    class="c-hpqThE c-hpqThE-fWqKPQ-color-warning c-hpqThE-dcPSsq-size-md c-hpqThE-bDGmTT-isDisabled-false c-hpqThE-cycqzJ-pill-false c-hpqThE-dQlwmf-cv decaButton-root"
+    role="button"
+  >
+    Label
+  </button>
+  <button
+    class="c-hpqThE c-hpqThE-cgBQIK-color-error c-hpqThE-dcPSsq-size-md c-hpqThE-bDGmTT-isDisabled-false c-hpqThE-cycqzJ-pill-false c-hpqThE-bAuLhl-cv decaButton-root"
+    role="button"
+  >
+    Label
+  </button>
+</DocumentFragment>
+`;
+
+exports[`components/Button renders all sizes 1`] = `
+<DocumentFragment>
+  <button
+    class="c-hpqThE c-hpqThE-jsOpSy-color-primary c-hpqThE-cmVdgU-size-sm c-hpqThE-bDGmTT-isDisabled-false c-hpqThE-cycqzJ-pill-false c-hpqThE-ePLPad-cv decaButton-root"
+    role="button"
+  >
+    Label
+  </button>
+  <button
+    class="c-hpqThE c-hpqThE-jsOpSy-color-primary c-hpqThE-dcPSsq-size-md c-hpqThE-bDGmTT-isDisabled-false c-hpqThE-cycqzJ-pill-false c-hpqThE-ePLPad-cv decaButton-root"
+    role="button"
+  >
+    Label
+  </button>
+  <button
+    class="c-hpqThE c-hpqThE-jsOpSy-color-primary c-hpqThE-eIDFyj-size-lg c-hpqThE-bDGmTT-isDisabled-false c-hpqThE-cycqzJ-pill-false c-hpqThE-ePLPad-cv decaButton-root"
+    role="button"
+  >
+    Label
+  </button>
+</DocumentFragment>
+`;
+
+exports[`components/Button renders all variants 1`] = `
+<DocumentFragment>
+  <button
+    class="c-hpqThE c-hpqThE-jsOpSy-color-primary c-hpqThE-dcPSsq-size-md c-hpqThE-bDGmTT-isDisabled-false c-hpqThE-cycqzJ-pill-false c-hpqThE-ePLPad-cv decaButton-root"
+    role="button"
+  >
+    Label
+  </button>
+  <button
+    class="c-hpqThE c-hpqThE-jsOpSy-color-primary c-hpqThE-dcPSsq-size-md c-hpqThE-bDGmTT-isDisabled-false c-hpqThE-cycqzJ-pill-false c-hpqThE-fdQTW-cv decaButton-root"
+    role="button"
+  >
+    Label
+  </button>
+  <button
+    class="c-hpqThE c-hpqThE-jsOpSy-color-primary c-hpqThE-dcPSsq-size-md c-hpqThE-bDGmTT-isDisabled-false c-hpqThE-cycqzJ-pill-false c-hpqThE-hSqWZv-cv decaButton-root"
+    role="button"
+  >
+    Label
+  </button>
+  <button
+    class="c-hpqThE c-hpqThE-jsOpSy-color-primary c-hpqThE-dcPSsq-size-md c-hpqThE-bDGmTT-isDisabled-false c-hpqThE-cycqzJ-pill-false c-hpqThE-kJLEgH-cv decaButton-root"
+    role="button"
+  >
+    Label
+  </button>
+</DocumentFragment>
+`;
